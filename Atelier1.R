@@ -30,3 +30,7 @@ tailles.m
 imc <- poids/tailles.m^2
 imc
 donnees <- data.frame(tailles,poids,imc)
+
+x <- seq(from=0,to=10^6,by=1)
+x
+x[10000]
